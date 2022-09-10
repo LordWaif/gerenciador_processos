@@ -33,7 +33,6 @@ int main(){
         read(p2[0], inbuf, MSGSIZE+1);
         printf("%s\n",inbuf);
 
-        print("");
         exit(0);
     }else{
         //waitpid(pidVL, &status, 0);
